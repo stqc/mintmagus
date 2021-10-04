@@ -1,0 +1,45 @@
+.about-data{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
+    padding: 20px;
+    justify-items: center;
+    align-items: center;
+    background-color: rgb(41, 41, 41);
+    margin-top: 20px ;
+}
+
+.im-slide{
+    width: 100%;
+    padding: 20px;
+}
+
+.im-slide>img{
+    width: 50%;
+    height: auto;
+}
+.data{
+    padding: 50px;
+    color: rgb(167, 167, 167)
+}
+.data>div{
+    padding:20px
+}
+.data>div>a{
+    text-decoration: none;
+    margin:10px;
+    color:white;
+    border: 2px solid rgb(124, 124, 0);
+    padding: 10px;
+    
+    background-color: rgb(71, 71, 12);
+}
+
+#smooth{
+
+    transition: all 1s cubic-bezier(1,-0.01, 0, 0.99);
+    transform: translateX(0%);
+}
+#smooth-out{
+    transition: all 1s cubic-bezier(1,-0.01, 0, 0.99);
+    transform: translateX(-180%);
+}

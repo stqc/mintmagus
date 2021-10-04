@@ -1,0 +1,134 @@
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: white;
+    padding: 1.25%;
+    align-items: center;
+}
+.nav>a{
+    cursor: pointer;
+    border-bottom: 2px solid transparent;
+    transition: all 1s;
+    text-decoration: none;
+    color:white;
+    font-size: 30px;
+    font-weight: bold;
+    
+}
+.nav>a:hover{
+    border-bottom: 2px solid white;
+}
+
+.open{
+
+    background-image: url("./image0.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.Open-content{
+    height:700px ;
+    width: 100%;
+}
+
+.connect{
+    border:2px solid rgb(167, 167, 167);
+    background-color: rgb(71, 71, 12);
+    padding: 10px;
+    cursor: pointer;
+}
+.connect-side{
+    border:2px solid rgb(167, 167, 167);
+    background-color: rgb(71, 71, 12);
+    padding: 10px;
+    cursor: pointer;
+    color:white;
+}
+
+.connect:hover{
+    border:2px solid rgb(71, 71, 12);
+    background-color: rgb(167, 167, 167);
+    padding: 10px;
+    cursor: pointer;
+}
+.Menu{
+    border:2px solid rgb(167, 167, 167);
+    background-color: rgb(71, 71, 12);
+    padding: 10px;
+    cursor: pointer;
+    display: none;
+}
+
+.Menu:hover{
+    border:2px solid rgb(71, 71, 12);
+    background-color: rgb(167, 167, 167);
+    padding: 10px;
+    cursor: pointer;
+}
+
+.side-menu{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 100%;
+    position: fixed;
+    z-index: 1;
+    background-color: rgba(41, 41, 41,0.97);
+    padding: 50px;
+    box-shadow: 20px 0px 100px black;
+    transition: all 0.81s ease-in-out;
+    transform: translateX(0%);
+    display: none;
+}
+.side-menu-disable{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 100%;
+    position: fixed;
+    z-index: 1;
+    background-color: rgba(41, 41, 41,0.97);
+    padding: 50px;
+    box-shadow: 20px 0px 100px black;
+    transition: all 0.81s ease-in-out;
+    transform: translateX(-180%);
+}
+.side-menu>a{
+    cursor: pointer;
+    border-bottom: 2px solid transparent;
+    transition: all 1s;
+    text-decoration: none;
+    color:white;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 20px;
+    
+}
+.side-menu-disable>a{
+    cursor: pointer;
+    border-bottom: 2px solid transparent;
+    transition: all 1s;
+    text-decoration: none;
+    color:white;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 20px;
+    
+}
+
+@media screen and (max-width: 600px){
+    .nav>a{
+        display: none;
+    }
+    .connect{
+        display: none;
+    }
+    .Menu{
+        display: initial;
+    }
+    .side-menu{
+        display: flex;
+    }
+}
