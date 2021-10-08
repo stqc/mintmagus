@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/static/css/main.e75fb61e.chunk.css",
+    "main.js": "/static/js/main.0d61602c.chunk.js",
+    "main.js.map": "/static/js/main.0d61602c.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.aaed37c9.js",
+    "runtime-main.js.map": "/static/js/runtime-main.aaed37c9.js.map",
+    "static/js/2.3c0d8fe9.chunk.js": "/static/js/2.3c0d8fe9.chunk.js",
+    "static/js/2.3c0d8fe9.chunk.js.map": "/static/js/2.3c0d8fe9.chunk.js.map",
+    "static/js/3.959432e8.chunk.js": "/static/js/3.959432e8.chunk.js",
+    "static/js/3.959432e8.chunk.js.map": "/static/js/3.959432e8.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.e75fb61e.chunk.css.map": "/static/css/main.e75fb61e.chunk.css.map",
+    "static/js/2.3c0d8fe9.chunk.js.LICENSE.txt": "/static/js/2.3c0d8fe9.chunk.js.LICENSE.txt",
+    "static/media/Andre Cronje Zombie.19e6b88e.jpg": "/static/media/Andre Cronje Zombie.19e6b88e.jpg",
+    "static/media/Andre_code_Safu_.7591cbdb.jpg": "/static/media/Andre_code_Safu_.7591cbdb.jpg",
+    "static/media/Barek  Zombie .e02286fb.jpg": "/static/media/Barek  Zombie .e02286fb.jpg",
+    "static/media/CowBoy Andre.716380c0.jpg": "/static/media/CowBoy Andre.716380c0.jpg",
+    "static/media/fantom_zombie_logo_2_without_black_shadow-01.69d99452.png": "/static/media/fantom_zombie_logo_2_without_black_shadow-01.69d99452.png",
+    "static/media/Opening.css": "/static/media/image0.680bf2cd.jpg",
+    "static/media/logo.6ce24c58.svg": "/static/media/logo.6ce24c58.svg",
+    "static/media/photo-2.d0039045.jpg": "/static/media/photo-2.d0039045.jpg",
+    "static/media/photo-4.dade344f.jpg": "/static/media/photo-4.dade344f.jpg",
+    "static/media/photo-5.aa19f1b4.jpg": "/static/media/photo-5.aa19f1b4.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.aaed37c9.js",
+    "static/js/2.3c0d8fe9.chunk.js",
+    "static/css/main.e75fb61e.chunk.css",
+    "static/js/main.0d61602c.chunk.js"
+  ]
+}
