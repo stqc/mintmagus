@@ -31,13 +31,9 @@ class About extends React.Component{
             </div>
             <div className="data">
                 <h1 style={{color:"white"}}>About Fantom Zombie</h1>
-                <p>Fantom Zombie NFTs ART is a
-                mythological dead person's land that has
-                come back to life. Undead are mythical
-                creatures that have been "re-animated,"
-                and the living dead are a group of them.
-                The Fantom Marines gave birth to the
-                Fantom Zombies legend.</p>
+                <p>Fantom Zombie NFTs ART is a Mythologically resurrected dead person's land. The living dead are a subset of the undead, which are mythical creatures that have been "re-animated." The legend of the Fantom Zombies began with the Fantom Marines.</p>
+                <p>Fantom Zombie is an undead collection of 1031 interactively created zombie art that exists in perpetuity throughout the Fantom block chain’s undead. Each Zombie is not only unique, but it also provides its owner with unique opportunities in the future.</p>
+                <p>Everyone has heard of fictional zombies, but few are aware of the truth about Fantom Zombies. Many people, both in the Crypto space and elsewhere, believe in the existence of zombies. They are more than just a form of art; they must be taken seriously. Magic and witchcraft are widely accepted in Crypto space and among the Fantom Marines, and are frequently practiced as religions in a mythological wasteland.</p>
                 <p>Explore the undead , Be a zombie</p>
                 <div style={{display:"inline"}}>
                     <a href="#">Discord</a>

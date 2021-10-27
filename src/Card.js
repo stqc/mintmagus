@@ -10,6 +10,9 @@ class Card extends React.Component{
             <div style={{padding:"5px"}}>
                 {this.props.name}
             </div>
+            <div style={{padding:"5px"}}>
+                {this.props.title}
+            </div>
         </div>
         )
     }
