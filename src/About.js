@@ -25,7 +25,7 @@ class About extends React.Component{
     
     render(){
     return(
-        <div className ="about-data" >
+        <div className ="about-data" id ="about">
             <div className="im-slide">
                 <img src={images[this.state.image]} alt="slide"/>
             </div>

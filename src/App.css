@@ -17,7 +17,7 @@
   padding: 20px 70px;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .social>a{
