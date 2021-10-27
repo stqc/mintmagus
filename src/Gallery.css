@@ -44,3 +44,6 @@
     transition: all 1s cubic-bezier(1,-0.01, 0, 0.99);
     transform: translateX(-180%);
 }
+#redhead{
+    color:rgb(131, 0, 0);
+}

@@ -48,7 +48,7 @@ class Mint extends React.Component{
                 <img src={images[this.state.image]} alt="slide"/>
             </div>
             <div className="data">
-                <h1 style={{color:"white"}}>Mint your zombie here!</h1>
+                <h1 style={{color:"rgb(131, 0, 0)"}}>Mint your zombie here!</h1>
                 <p>Your very own zombie is just one click away</p>
                 <div className='btn' onClick={this.mintNFT}>
                             Mint

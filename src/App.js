@@ -16,11 +16,11 @@ function App() {
       <Team/>
       <div className="footer">
         <div className="social">
-          <a href="#">Discord</a>
-          <a href="#">Telegram</a>
-          <a href="#">Twitter</a>
+          <a href="https://t.co/myjYTJDkXR?amp=1">Discord</a>
+          <a href="https://t.me/FantomZombie">Telegram</a>
+          <a href="https://twitter.com/fantom_zombie">Twitter</a>
         </div>
-        &copy; Copyright FantomZombie. All rights reserved.
+        &copy; Copyright 2021 FantomZombie. All rights reserved.
       </div>
     </div>
   );

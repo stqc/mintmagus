@@ -4,20 +4,20 @@
 
 .btn{
   color: white;
-  border:2px solid rgb(124, 124, 0);
-  background-color: rgb(71, 71, 12);
+  border:2px solid rgb(124, 0, 0);
+  background-color: rgb(71, 12, 12);
   cursor: pointer;
 }
 .btn:hover{
-  background-color: rgb(124, 124, 0);;
-  border-color: rgb(71, 71, 12);
+  background-color: rgb(124, 0, 0);;
+  border-color: rgb(71, 12, 12);
 }
 
 .social{
   padding: 20px 70px;
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-evenly;
 }
 
 .social>a{
@@ -27,4 +27,7 @@
 .footer{
   display: block;
   color: rgb(167, 167, 167)
+}
+h1,h2{
+  color:rgb(131, 0, 0);
 }

@@ -27,7 +27,7 @@
     transition: all 1s;
     text-decoration: none;
     color:white;
-    font-size: 30px;
+    font-size: 20px;
     font-weight: bold;
 }
 .wide-men>a:hover{
@@ -47,36 +47,36 @@
 }
 
 .connect{
-    border:2px solid rgb(167, 167, 167);
-    background-color: rgb(71, 71, 12);
+    border:2px solid rgb(124, 0, 0);;
+    background-color: rgb(71, 12, 12);
     padding: 10px;
     cursor: pointer;
 }
 .connect-side{
-    border:2px solid rgb(167, 167, 167);
-    background-color: rgb(71, 71, 12);
+    border:2px solid rgb(124, 0, 0);;
+    background-color: rgb(71, 12, 12);
     padding: 10px;
     cursor: pointer;
     color:white;
 }
 
 .connect:hover{
-    border:2px solid rgb(71, 71, 12);
-    background-color: rgb(167, 167, 167);
+    border:2px solid rgb(71, 12, 12);
+    background-color: rgb(124, 0, 0);;
     padding: 10px;
     cursor: pointer;
 }
 .Menu{
-    border:2px solid rgb(167, 167, 167);
-    background-color: rgb(71, 71, 12);
+    border:2px solid rgb(124, 0, 0);;
+    background-color: rgb(71, 12, 12);
     padding: 10px;
     cursor: pointer;
     display: none;
 }
 
 .Menu:hover{
-    border:2px solid rgb(71, 71, 12);
-    background-color: rgb(167, 167, 167);
+    border:2px solid rgb(71, 12, 12);
+    background-color: rgb(124, 0, 0);;
     padding: 10px;
     cursor: pointer;
 }
@@ -88,7 +88,7 @@
     height: 100%;
     position: fixed;
     z-index: 1;
-    background-color: rgba(41, 41, 41,0.97);
+    background-color: rgba(8, 8, 8,0.97);
     padding: 50px;
     box-shadow: 20px 0px 100px black;
     transition: all 0.81s ease-in-out;
