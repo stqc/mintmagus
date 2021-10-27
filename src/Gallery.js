@@ -1,11 +1,11 @@
 import React from 'react'
-import Im1 from './AboutSlide/photo-2.jpg'
-import Im2 from './AboutSlide/photo-4.jpg'
-import Im3 from './AboutSlide/photo-5.jpg'
+import Im1 from './AboutSlide/common.gif'
+import Im2 from './AboutSlide/rare.gif'
+import Im3 from './AboutSlide/gold.gif'
 import './Gallery.css';
 
 var images = [Im1,Im2,Im3];
-var titles = ['Aesthetic','Rare','Golden']
+var titles = ['Common','Rare','Golden']
 var content = ['Each of the 999 Fantom Zombies is unique in appearance; each Zombie is created at random and has its own Emotions.','Only 27 Rare Fantom Zombies Team are known to exist, and no two aresame; each Zombie is handcrafted and has its own personality and emotions.','There are only 5 FTM Zombies are golden, and each one is created with a unique personality and set of feelings. Then it\'s transformed into animated art.']
 class Gallery extends React.Component{
     
@@ -55,7 +55,7 @@ class Gallery extends React.Component{
                 <div className="im-slide">
                     <img src={images[this.state.image]} alt="slide"/>
                 </div>
-                <div className="data">
+                <div className="data" id="gal">
                     <h1 style={{color:"white"}}>{titles[this.state.title]}</h1>
                     <p>{content[this.state.content]}</p>
                 </div>

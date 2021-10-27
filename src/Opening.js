@@ -55,9 +55,9 @@ const Opening = ()=>{
 return(
     <div className="open">
     <div className={clsName}>
-            <a href="#">About</a>
-            <a href="#">Gallery</a>
-            <a href="#">Mint</a>
+            <a href="#about">About</a>
+            <a href="#gal">Gallery</a>
+            <a href="#mint">Mint</a>
             
             {connect?<div style={{display:"inline"}} ref={ref2}>
                 <div className="connect-side" style={{marginBottom:"20px"}} onClick={withWalletConnect}>WalletConnect</div>
@@ -71,9 +71,11 @@ return(
         </div>
         <div className="nav">
                 <img src={Logo} alt ="logo" style={{width:"200px"}}/>
-                <a href="#">About</a>
-                <a href="#">Gallery</a>
-                <a href="#">Mint</a>
+                <div className="wide-men"style={{display:"flex",flexDirection:"row",justifyContent:"flex-end"}}>
+                    <a href="#about">About</a>
+                    <a href="#gal">Gallery</a>
+                    <a href="#mint">Mint</a>
+                
                 
                 {connect?<div style={{display:"flex"}} ref={ref}>
                 <div className="connect" style={{marginRight:"10px"}} onClick={withWalletConnect}>WalletConnect</div>
@@ -82,7 +84,7 @@ return(
                 showOptions(true);
             }}>
                     Connect
-                </div>}
+                </div>}</div>
             <div className="Menu" onClick={()=>{
                 changeCLS(clsName==='side-menu-disable'?'side-menu':'side-menu-disable');
             }}>

@@ -4,6 +4,8 @@ import {Opening} from './Opening';
 import About from './About';
 import Gallery from './Gallery';
 import Mint from  './Mint';
+import Team from './Team';
+
 function App() {
   return (
     <div className="App">
@@ -11,6 +13,7 @@ function App() {
       <About/>
       <Gallery/>
       <Mint/>
+      <Team/>
       <div className="footer">
         <div className="social">
           <a href="#">Discord</a>
