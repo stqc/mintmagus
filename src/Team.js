@@ -1,11 +1,12 @@
 import React from "react";
 import './Team.css';
 import Card from "./Card";
-import Im5 from './AboutSlide/Egor Lysenko 27.jpg'
-import Im6 from './AboutSlide/Harry17.jpg'
-import Im7 from './AboutSlide/Harry Yeh 18.jpg'
-import Im9 from './AboutSlide/Jason Kwon 21.jpg'
-import Im8 from './AboutSlide/Kong Zombie 2.jpg'
+import Im5 from './AboutSlide/GOLDEN.jpeg'
+import Im6 from './AboutSlide/AK.jpeg'
+import Im7 from './AboutSlide/ALEX.jpeg'
+import Im9 from './AboutSlide/MAX.jpeg'
+import Im8 from './AboutSlide/SHIBA DEV.jpeg'
+import Im1 from './AboutSlide/WOLF.jpeg'
 
 class Team extends React.Component{
 
@@ -14,12 +15,12 @@ class Team extends React.Component{
             <div className="tt">
                 <h1> Meet The Team </h1>
                 <div className="main-team">
-                    <Card image={Im5} name={"some name"}></Card>
-                    <Card image={Im6} name={"some name"}></Card>
-                    <Card image={Im7} name={"some name"}></Card>
-                    <Card image={Im8} name={"some name"}></Card>
-                    <Card image={Im9} name={"some name"}></Card>
-                    <Card image={Im5} name={"some name"}></Card>
+                    <Card image={Im1} name={"Wolf"} title={'Co-Founder'}></Card>
+                    <Card image={Im8} name={"Lord Shiba"} title={'Dev Lead'}></Card>
+                    <Card image={Im6} name={"AK"} title={"Visual Art Lead"}></Card>
+                    <Card image={Im9} name={"Maxflow"} title={'Dev'}></Card>
+                    <Card image={Im5} name={"Golden"} title={'Marketing'}></Card>
+                    <Card image={Im7} name={"Alex"} title={'Marketing/CM'}></Card>
                 </div>
             </div>
         )
