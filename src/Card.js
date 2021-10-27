@@ -7,7 +7,7 @@ class Card extends React.Component{
         <div style={{padding:"10px"}}>
             <div>
             <img src={this.props.image} alt={this.props.name} style={{width:"100%"}}/></div>
-            <div style={{padding:"5px"}}>
+            <div style={{padding:"5px",color:"rgb(131, 0, 0)"}}>
                 {this.props.name}
             </div>
             <div style={{padding:"5px"}}>

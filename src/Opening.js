@@ -71,7 +71,7 @@ return(
         </div>
         <div className="nav">
                 <img src={Logo} alt ="logo" style={{width:"200px"}}/>
-                <div className="wide-men"style={{display:"flex",flexDirection:"row",justifyContent:"flex-end", padding:"0px 5px"}}>
+                <div className="wide-men"style={{display:"flex",flexDirection:"row",justifyContent:"flex-end", padding:"0px 5px", alignItems:"center"}}>
                     <a href="#about">About</a>
                     <a href="#gal">Gallery</a>
                     <a href="#mint">Mint</a>
