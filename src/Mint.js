@@ -12,12 +12,9 @@ import Im8 from './AboutSlide/Kong Zombie 2.jpg'
 import { connectedTo,contract } from './Opening'
 
 var images = [Im1,Im2,Im3,Im4,Im5,Im6,Im7,Im8,Im9];
+var ref  = React.createRef();
 class Mint extends React.Component{
-    constructor(){
-        super();
-        var ref = React.createRef();
-    }
-    
+
     state ={
         image:0,
         toMint: 1,
@@ -25,15 +22,16 @@ class Mint extends React.Component{
 
     updateMint = async ()=>{
 
-        this.setState({toMint:this.ref.current});
+        await this.setState({toMint:ref.current.value});
+        console.log(this.state.toMint);
     }
     mintNFT = async ()=>{
         try{
-            this.updateMint();;
+            await this.updateMint();
             var fees = await contract.methods.minterFees().call();
             fees*=this.state.toMint;
             console.log(fees);
-            var mint = await contract.methods.publicMint(fees).send({from:connectedTo,value:fees});
+            var mint = await contract.methods.publicMint(this.state.toMint).send({from:connectedTo,value:String(fees)});
             console.log(mint);
        }
        catch(exception){
@@ -62,7 +60,7 @@ class Mint extends React.Component{
             <div className="data">
                 <h1 style={{color:"rgb(131, 0, 0)"}}>Mint your zombie here!</h1>
                 <p>Your very own zombie is just one click away</p>
-                <input type="number" className="noOfMint" placeholder="Enter number of zombies"  style={{width:"200px", margin:"10px"}} ref={this.ref}/>
+                <input type="number" className="noOfMint" placeholder="Enter number of zombies"  style={{width:"200px", margin:"10px"}} ref={ref} max="7"/>
                 
                 <div className='btn' onClick={this.mintNFT}>
                             Mint
