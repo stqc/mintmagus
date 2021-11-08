@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/static/css/main.764be627.chunk.css",
-    "main.js": "/static/js/main.01db752e.chunk.js",
-    "main.js.map": "/static/js/main.01db752e.chunk.js.map",
+    "main.js": "/static/js/main.d7dc3cf3.chunk.js",
+    "main.js.map": "/static/js/main.d7dc3cf3.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.8ccf8074.js",
     "runtime-main.js.map": "/static/js/runtime-main.8ccf8074.js.map",
-    "static/js/2.a147d0ab.chunk.js": "/static/js/2.a147d0ab.chunk.js",
-    "static/js/2.a147d0ab.chunk.js.map": "/static/js/2.a147d0ab.chunk.js.map",
+    "static/js/2.02e53cca.chunk.js": "/static/js/2.02e53cca.chunk.js",
+    "static/js/2.02e53cca.chunk.js.map": "/static/js/2.02e53cca.chunk.js.map",
     "static/js/3.1b03afcd.chunk.js": "/static/js/3.1b03afcd.chunk.js",
     "static/js/3.1b03afcd.chunk.js.map": "/static/js/3.1b03afcd.chunk.js.map",
     "index.html": "/index.html",
     "static/css/main.764be627.chunk.css.map": "/static/css/main.764be627.chunk.css.map",
-    "static/js/2.a147d0ab.chunk.js.LICENSE.txt": "/static/js/2.a147d0ab.chunk.js.LICENSE.txt",
+    "static/js/2.02e53cca.chunk.js.LICENSE.txt": "/static/js/2.02e53cca.chunk.js.LICENSE.txt",
     "static/media/AK.02cc2c35.jpeg": "/static/media/AK.02cc2c35.jpeg",
     "static/media/ALEX.7e4d00e0.jpeg": "/static/media/ALEX.7e4d00e0.jpeg",
     "static/media/Andre Cronje Zombie.19e6b88e.jpg": "/static/media/Andre Cronje Zombie.19e6b88e.jpg",
@@ -36,8 +36,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.8ccf8074.js",
-    "static/js/2.a147d0ab.chunk.js",
+    "static/js/2.02e53cca.chunk.js",
     "static/css/main.764be627.chunk.css",
-    "static/js/main.01db752e.chunk.js"
+    "static/js/main.d7dc3cf3.chunk.js"
   ]
 }
