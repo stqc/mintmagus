@@ -11,6 +11,8 @@ var web3;
 var connectedAccount ;
 var contract;
 var connectedTo;
+var  connected =false;
+var minted;
 const Opening = ()=>{
     var [clsName,changeCLS] = useState('side-menu-disable');
     var [connect,showOptions] = useState(false);
@@ -28,8 +30,11 @@ const Opening = ()=>{
             contract = await new web3.eth.Contract(NFT_ABI,NFT_ADDRESS);
             console.log(contract._address);
             connectedTo = connectedAccount[0]; 
+            connected = true;
             ref.current.style.display ='none';
             ref2.current.style.display ='none';
+            minted = await contract.methods.totalSupply().call();
+            console.log(minted);
     }
         catch(exception){
             console.log(exception);
@@ -44,8 +49,11 @@ const Opening = ()=>{
             console.log(contract._address);
             connectedTo = connectedAccount[0];
             console.log(connectedTo);
+            connected = true;
             ref.current.style.display ='none';
             ref2.current.style.display ='none';
+            minted = await contract.methods.totalSupply().call();
+            console.log(minted);
         }
             catch(exception){
                 console.log(exception);
@@ -53,7 +61,7 @@ const Opening = ()=>{
     }
 
 return(
-    <div className="open">
+    <div className="open" id="open">
     <div className={clsName}>
             <a href="#about">About</a>
             <a href="#gal">Gallery</a>
@@ -67,6 +75,11 @@ return(
             }}>
                 Connect
             </div>}
+            <div className="Menu"  style={{color:'white', margin:"10px 0"}}onClick={()=>{
+                changeCLS(clsName==='side-menu-disable'?'side-menu':'side-menu-disable');
+            }}>
+                Close
+            </div>
 
         </div>
         <div className="nav">
@@ -101,4 +114,4 @@ return(
 
 }
 
-export { Opening,connectedTo,contract};
+export { Opening,connectedTo,contract,connected, minted};
