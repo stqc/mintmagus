@@ -4,13 +4,19 @@
 
 .btn{
   color: white;
-  border:2px solid rgb(124, 0, 0);
-  background-color: rgb(71, 12, 12);
+  border:2px solid rgb(0, 68, 124);
+  background-color: rgb(5, 52, 83);
   cursor: pointer;
+  font-family: 'Merriweather Sans', sans-serif;
+
+}
+.nav{
+  font-family: 'Merriweather Sans', sans-serif;
+
 }
 .btn:hover{
-  background-color: rgb(124, 0, 0);;
-  border-color: rgb(71, 12, 12);
+  background-color: rgb(5, 52, 83);
+  border-color: rgb(0, 68, 124);
 }
 
 .social{
@@ -26,8 +32,9 @@
 }
 .footer{
   display: block;
-  color: rgb(167, 167, 167)
+  color: rgb(167, 167, 167);
+  font-family: 'Merriweather Sans', sans-serif;
 }
 h1,h2{
-  color:rgb(131, 0, 0);
+  color:rgb(195 177 99);
 }
