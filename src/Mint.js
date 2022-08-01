@@ -22,7 +22,7 @@ class Mint extends React.Component{
     mintNFT = async ()=>{
         try{
             var fees;
-            await contract.methods.whitelistTime().call()==true?fees = 500*1e18:fees=550*1e18;
+            await contract.methods.whitelistTime().call()==true?fees = 500*1e18:fees=500*1e18;
             console.log(fees);
             var mint = await contract.methods.mint().send({from:connectedTo,value:String(fees)});
             console.log(mint);
